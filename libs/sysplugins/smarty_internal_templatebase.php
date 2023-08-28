@@ -46,6 +46,7 @@
  * @method Smarty_Internal_TemplateBase unregisterFilter(string $type, mixed $callback)
  * @method Smarty_Internal_TemplateBase unregisterResource(string $name)
  */
+#[AllowDynamicProperties]
 abstract class Smarty_Internal_TemplateBase extends Smarty_Internal_Data
 {
     /**
