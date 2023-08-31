@@ -1,5 +1,7 @@
 <?php
 
+use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
+
 /**
  * Smarty compiler exception class
  *
@@ -20,6 +22,7 @@ class SmartyCompilerException extends SmartyException
      *
      * @type int
      */
+    #[LanguageLevelTypeAware(['8.1' => 'int'], default: '')]
     public $line = 0;
 
     /**
