@@ -27,7 +27,7 @@
         "forum": "http://www.smarty.net/forums/"
     },
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.1"
     },
     "autoload": {
         "classmap": [
